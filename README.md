@@ -1,2 +1,2 @@
 # Habit-Tracker
-Web application that tracks your habits
+A web application that tracks your habits
