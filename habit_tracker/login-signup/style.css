@@ -1,0 +1,47 @@
+body{
+    background-color: #2a8f9f;
+    font-family: sans-serif;
+}
+.container{
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 550px;
+    background-color: #264653;
+}
+
+form{
+    white-space: pre;
+    margin: 7px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(233, 196, 106);
+}
+
+.container{
+    border: 1px solid black; 
+    border-radius: 7px;
+}
+
+input{
+    height: 20px;
+    border-radius: 10px;
+    text-align-last: center;
+    outline: none;
+    border: 1px solid black; 
+    background-color: #f4a261;
+    font-size: 15px;
+}
+
+input::-webkit-input-placeholder{
+    font-weight: bold;
+    color: black;
+}
+
+#btn{
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+}
+
+

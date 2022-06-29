@@ -1,0 +1,88 @@
+body{
+    background-color:#218380;
+}
+
+.container{
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    width: 40%;
+    grid-template-rows:50px 380px ;
+    font-family: sans-serif;
+    background-color: #c75146;
+    border-radius: 10px;
+}
+
+.callender{
+    background-color: #e9c46a;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.headline{
+    background-color: #e76f51;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.container>div>table{
+   width: 100%;
+   border-collapse: collapse; 
+}
+.container>div>table>tr>td{
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+    margin: 3px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.container>div>table>tr>td:hover{
+    background-color: orange;
+}
+
+.headline{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#month{
+    line-height: 50px;
+}
+.headline>button{
+    border: none;
+    background: none;
+    font-size: 40px;
+    outline: none;
+}
+
+.but{
+    font-weight: bolder;
+    font-size: large;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    background-color: orange;
+    border: 2px solid orangered;
+}
+
+#header{
+    font-family: sans-serif;
+    color: orange;
+}
+
+#mychart{
+    background-color: #a4f09a;
+    border: 5px solid  #e76f51 ;
+}
+
+#graphs{
+    width: 70%;
+    margin: 50px auto;
+}
+
+#dographs{
+    margin: 30px auto;
+}
